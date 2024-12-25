@@ -5,7 +5,7 @@ export default defineConfig({
   build: {
     rollupOptions: {
       input: {
-        main: resolve(__dirname, 'script.js'),
+        main: resolve(__dirname, 'script'),
       },
     },
   },
