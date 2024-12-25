@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities{
+  .cheak-btn{
+    @apply p-1 text-[18px] md:px-4  bg-[#28a745] rounded-md ml-2 text-end hover:bg-green-900 hover:text-black cursor-pointer float-right
+  }
+  .edit-btn{
+    @apply p-1 text-[18px] md:px-4 bg-[#ebd316] rounded-md ml-2 text-end hover:bg-yellow-900 hover:text-black cursor-pointer float-right
+  }
+  .delete-btn{
+    @apply p-1 text-[18px] md:px-4 bg-red-500  rounded-md ml-2 text-end hover:bg-red-900 hover:text-black cursor-pointer float-right
+
+  }
+  .lists{
+    @apply inline-block p-[5px] md:p-[10px] mx-[10px] my-1 text-[18px] align-middle rounded-md bg-white justify-between pt-3
+  }
+  .strike{
+    @apply line-through
+  }
+}
