@@ -74,11 +74,9 @@
 
       let cheak = document.createElement('button');
       cheak.innerHTML = `<i class="fa fa-check text-white text-xs mb-2"></i>`;
-      const icon = cheak.querySelector("i");
       cheak.classList.add('cheak-btn');
       cheak.addEventListener("click", () => {
         newList.classList.toggle("strike");
-        icon.classList.toggle("fa-rotate-right");
       });
 
       newList.appendChild(cheak);
